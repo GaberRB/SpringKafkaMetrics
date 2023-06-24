@@ -49,6 +49,9 @@ Após iniciar os serviços, você pode acessar os seguintes recursos:
 
 - Configure as variaveis de ambiente da seguente forma:
   ![image](https://github.com/GaberRB/SpringKafkaMetrics/assets/28874479/e0cdfb8b-6b79-4c3b-99c2-c60d97c3a4e1)
+
+- Visualização das metricas pelo grafana:
+![image](https://github.com/GaberRB/SpringKafkaMetrics/assets/28874479/a3993cc8-6f09-4576-9547-357204613000)
  
 
 ## Recursos Adicionais
