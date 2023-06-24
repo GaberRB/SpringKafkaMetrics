@@ -30,7 +30,8 @@ public class KafkaListeners {
 
     @KafkaListener(
             topics = "topico_java",
-            groupId = "groupId"
+            groupId = "groupId",
+            containerFactory="kafkaListenerContainerFactory"
     )
     public void listerner(List<String> dados){
         if (dados.size() > 0){

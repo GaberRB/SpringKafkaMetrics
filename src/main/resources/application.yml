@@ -1,8 +1,11 @@
 spring:
   kafka:
+    listener:
+      type: batch
     bootstrap-servers: localhost:9091   # Endere�o do servidor Kafka
     consumer:
       group-id: meu-consumidor  # ID do grupo do consumidor
+      max-poll-records: 500
 
 management:
   endpoints:
