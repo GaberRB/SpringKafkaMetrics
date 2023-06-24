@@ -1,10 +1,11 @@
-# Aplicação de Demonstração de Consumo em Lote e Multithread com Kafka, Prometheus e Grafana
+# Demonstração de Consumo em Batch (Lote) e Multithread com Kafka, Prometheus e Grafana
 
-Esta é uma aplicação de demonstração desenvolvida em Java com o framework Spring, utilizando o Apache Kafka para processamento de mensagens em lote e multithread. Também são utilizados o Prometheus e o Grafana para monitoramento e visualização dos dados.
+Esta é uma demonstração desenvolvida em Java com o framework Spring, utilizando o Apache Kafka para processamento de mensagens em lote e multithread. Também são utilizados o Prometheus e o Grafana para monitoramento e visualização dos dados.
 
 ## Pré-requisitos
 
 - Docker e Docker Compose instalados na máquina local.
+- SDK Java 20
 
 ## Configuração
 
