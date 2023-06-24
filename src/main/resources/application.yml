@@ -1,0 +1,20 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9091   # Endere�o do servidor Kafka
+    consumer:
+      group-id: meu-consumidor  # ID do grupo do consumidor
+
+management:
+  endpoints:
+    enabled-by-default: false
+    web:
+      exposure:
+        include: 'health, prometheus'
+  endpoint:
+    health:
+      enable: true
+      show-details: always
+    metrics:
+      enable: true
+    prometheus:
+      enabled: true
